@@ -49,6 +49,8 @@ RUN apt-get update && apt-get -y upgrade && apt-get install --no-install-recomme
   lxc \
   libboost-signals-dev \
   libboost-filesystem-dev \ 
+#add more ns3 related package
+  libgcrypt20-dev\
 #end ns3
   git make pkg-config g++ zlib1g-dev \
   libfreetype6-dev libjpeg62-dev libpng12-dev libopenjpeg-dev libmad0-dev libfaad-dev \
