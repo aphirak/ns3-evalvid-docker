@@ -93,5 +93,7 @@ FROM basesystemfile as ns3evalvid
 COPY --from=evalvid /home/evalvid /home/evalvid
 COPY --from=evalvid /usr/local/bin/ /usr/local/bin/
 COPY --from=ns3 /home/ns3 /home/ns3
+WORKDIR /home/evalvid/
+RUN sh compile-static.sh
 WORKDIR /home/ns3
 CMD ["/bin/bash"]

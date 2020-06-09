@@ -9,7 +9,7 @@ make
 make install
 cp -R include/gpac /usr/include
 cp bin/gcc/libgpac_static.a /usr/lib #for static linking
-make clean
+#make clean
 
 #link lib64 to lib folder
 cd /usr/local/lib
@@ -17,5 +17,5 @@ ln -s  /usr/local/lib64/* .
 ldconfig
 
 cd ${ROOTDIR}/evalvid-2.7-static
-make clean
+#make clean
 make install
