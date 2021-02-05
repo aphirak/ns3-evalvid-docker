@@ -4,7 +4,8 @@ ROOTDIR=/home/ns3
 
 cd ${ROOTDIR}
 #download  evalvid ns3 module
-git clone https://gitlab.com/gercom/evalvid-ns3
+#git clone https://gitlab.com/gercom/evalvid-ns3
+git clone https://gitlab.com/aphirak.j/evalvid-ns3
 
 #git clone https://gitlab.com/nsnam/ns-3-allinone
 git clone https://gitlab.com/nsnam/ns-3-allinone.git/
